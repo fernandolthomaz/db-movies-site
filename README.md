@@ -1,74 +1,89 @@
-# Site de Filmes com React
+# Movies Website with React
 
-Este é um projeto de site de filmes desenvolvido com React, onde você pode buscar e descobrir filmes usando a API do TMDB. O projeto também usa Appwrite para armazenar as buscas mais populares.
+This is a movie website project developed with React, where you can search and discover movies using the TMDB API. The project also uses Appwrite to store the most popular searches.
 
-## Sobre o Projeto
+## About The Project
 
-Desenvolvi este site como parte dos meus estudos em React. O objetivo principal foi criar uma aplicação que:
-- Permite buscar filmes
-- Mostra filmes populares
-- Exibe as buscas mais frequentes dos usuários
-- Tem um design responsivo
+I developed this website as part of my React studies. The main goal was to create an application that:
+- Allows movie searches
+- Shows popular movies
+- Displays most frequent user searches
+- Has a responsive design
 
-## Tecnologias Usadas
+## Technologies Used
 
 - React
 - Vite
 - Tailwind CSS
 - TMDB API
 - Appwrite
-- React Use (para o debounce na busca)
+- React Use (for search debounce)
 
-## Como Rodar o Projeto
+## How to Run the Project
 
-1. Clone o repositório
-2. Instale as dependências:
+1. Clone the repository
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Crie um arquivo `.env.local` e adicione suas chaves:
+3. Create a `.env.local` file and add your keys:
 ```bash
-VITE_TMDB_API_KEY=[chave-da-api-tmdb]
-VITE_APPWRITE_PROJECT_ID=[id-do-projeto]
-VITE_APPWRITE_DATABASE_ID=[id-do-banco]
-VITE_APPWRITE_COLLECTION_ID=[id-da-coleção]
+VITE_TMDB_API_KEY=[your-tmdb-api-key]
+VITE_APPWRITE_PROJECT_ID=[your-project-id]
+VITE_APPWRITE_DATABASE_ID=[your-database-id]
+VITE_APPWRITE_COLLECTION_ID=[your-collection-id]
 ```
 
-4. Rode o projeto:
+4. Run the project:
 ```bash
 npm run dev
 ```
 
-## Funcionalidades
+## Features
 
-- Busca de filmes em tempo real
-- Lista de filmes populares
-- Seção de filmes mais pesquisados
-- Layout responsivo que funciona em celular e desktop
+- Real-time movie search
+- Popular movies list
+- Most searched movies section
+- Responsive layout that works on mobile and desktop
 
-## Estrutura do Projeto
+## Project Structure
 
-- `src/components`: Componentes React
-- `src/App.jsx`: Componente principal
-- `src/appwrite.js`: Configuração e funções do Appwrite
-- `public`: Imagens e outros arquivos estáticos
+- `src/components`: React Components
+- `src/App.jsx`: Main Component
+- `src/appwrite.js`: Appwrite configuration and functions
+- `public`: Images and other static files
 
-## Aprendizados
+## Learnings
 
-Durante este projeto, aprendi:
-- Como usar APIs externas (TMDB)
-- Como implementar busca em tempo real com debounce
-- Como usar Tailwind CSS para estilização
-- Como trabalhar com serviços backend (Appwrite)
-- Como criar um layout responsivo
+During this project, I learned:
+- How to use external APIs (TMDB)
+- How to implement real-time search with debounce
+- How to use Tailwind CSS for styling
+- How to work with backend services (Appwrite)
+- How to create a responsive layout
 
-## Como Contribuir
+## Next Steps
 
-Se quiser contribuir com o projeto:
-1. Faça um fork
-2. Crie uma branch para sua feature
-3. Faça commit das mudanças
-4. Faça push para a branch
-5. Abra um Pull Request
+I plan to add:
+- Movie details page
+- Favorites system
+- Genre filters
+- Pagination
+
+## How to Contribute
+
+If you want to contribute to the project:
+1. Fork it
+2. Create a branch for your feature
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+# Credits
+
+Project developed as part of React and web development studies.
+Fernando Thomaz
+
+### NOT FOR PROFESSIONAL REASONS
 
