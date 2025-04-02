@@ -1,6 +1,10 @@
+> **Note**: This project was developed for educational purposes only.
+
 # Movies Website with React
 
 This is a movie website project developed with React, where you can search and discover movies using the TMDB API. The project also uses Appwrite to store the most popular searches.
+
+🔗 [View Demo](https://movieswebsitedb.netlify.app/)
 
 ## About The Project
 
@@ -85,5 +89,4 @@ If you want to contribute to the project:
 Project developed as part of React and web development studies.
 Fernando Thomaz
 
-### NOT FOR PROFESSIONAL REASONS
 
