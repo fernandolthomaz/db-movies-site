@@ -33,10 +33,10 @@ npm install
 
 3. Create a `.env.local` file and add your keys:
 ```bash
-VITE_TMDB_API_KEY=[your-tmdb-api-key]
-VITE_APPWRITE_PROJECT_ID=[your-project-id]
-VITE_APPWRITE_DATABASE_ID=[your-database-id]
-VITE_APPWRITE_COLLECTION_ID=[your-collection-id]
+VITE_TMDB_API_KEY=[tmdb-api-key]
+VITE_APPWRITE_PROJECT_ID=[project-id]
+VITE_APPWRITE_DATABASE_ID=[database-id]
+VITE_APPWRITE_COLLECTION_ID=[collection-id]
 ```
 
 4. Run the project:
